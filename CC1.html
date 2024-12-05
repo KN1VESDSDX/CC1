@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CC1.css">
+</head>
+
+
+
+<body>
+    <!-- Navigation menu -->
+      <header>
+        <div class="nav-container">
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#services">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contacts</a></div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contacts</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+      </header>
+    
+    
+    <!-- Main section -->
+    <section id="home">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hello</h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    <!-- autotype -->
+                  I'm <span class="auto-type"></span>
+                    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                    <script>
+                      var typed = new Typed(".auto-type",{
+                        strings: ["Cyrus Antawn Gapasin"],
+                        typeSpeed: 200,
+                        backspeed: 200,
+                        loop: true
+                      })
+                    </script>
+                </div>
+                <hr>
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">CITCS Student</h1>
+            </div>
+        </div>
+    </section>
+
+<!-- About Section -->
+<section class="about-container" id="about">
+        <div class="about-image" data-aos="fade-up" data-aos-duration="1500">
+            <img src="download.jpg" alt="About me">
+        </div>
+        <div class="about-content">
+                  <h1 data-aos="fade-up" data-aos-duration="1500">About <span>Me</span></h1>
+                      <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                        <strong>Name:</strong> Cyrus Antawn D. Gapasin <br>
+                        <strong>Age:</strong> 19<br>
+                        <strong>ADDRESS:</strong> 3 SOUTH SANITRY CAMP<br>
+                        <strong>Nationality:</strong> Philippines/Nationality<br>
+                        </p>  <hr>
+            <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+              Aspiring Software Engineer/Game Programmer. Has the creativity and passion in programming languages. Seeking to explore emerging cutting-edge technologies and more aspects in a world of information technology
+            </p>  <hr>
+                <h2 data-aos="fade-up" data-aos-duration="1500">EDUCATIONBACKGROUND</h2>
+                      <h3 data-aos="fade-up" data-aos-duration="1500">Senior High School: </h3>
+                          <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                            <strong>Strand: </strong> STEM (Science, Technology, Engineering, Mathematics)<br>
+                            <strong>School: </strong> University of Baguio<br>
+                            <strong>Address: </strong> Gen. Luna Rd, Baguio City, 2600 Benguet<br>
+                            <strong>Strand: </strong> Inclusive date: 2022 – 2023<br>
+                            <strong>Inclusive date: </strong> 2022 – 2023<br>
+                          </p>
+                      <h3 data-aos="fade-up" data-aos-duration="1500">College: </h3>
+                          <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                            <strong> Course: </strong> Bachelor of Science in Information Technology (IT)<br>
+                            <strong>School: </strong> University of the Cordillera<br>
+                            <strong>Address: </strong> Gov. Pack Rd, Baguio, Benguet<br>
+                            <strong>Expected Graduation: </strong> 2024 – 2027<br>         
+          </div>
+</section>
+
+
+
+
+<div class="gallery" >
+    <h1 data-aos="fade-up" data-aos-duration="1200">Image Gallery</h1>
+</div>  
+    <div class="gallery"data-aos="fade-up" data-aos-duration="1500">
+    <img src="pic1.jpg" alt="Image 1">
+    <img src="antawn.jpg" alt="Image 2">
+    <img src="piv8.jpg" alt="Image 2">
+    <img src="pic9.jpg" alt="Image 2">
+    <img src="apic.jpg" alt="Image 3">
+    <img src="pic2.jpg" alt="Image 4">
+    <img src="pic3.jpg" alt="Image 5">
+    <img src="pic4.jpg" alt="Image 6">
+    <img src="pic5.jpg" alt="Image 7">
+    <img src="pic6.jpg" alt="Image 8">
+    <img src="pic7.jpg" alt="Image 9">
+</div>
+
+
+
+
+<!-- Skills Section -->
+<section class="skills" >
+      <div class="skills-container">
+            <div class="skills-details">
+                          <div class="text">
+                                <h1 data-aos="fade-up" data-aos-duration="1200">My <span>Skills/Strenghts</span></h1>
+
+                                  <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                                    <canvas id="myChart"></canvas>
+                                  </div>  
+                      
+                                  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                                    
+                                  <script>
+                                      const ctx = document.getElementById('myChart');
+                                      
+                                      new Chart(ctx, {
+                                        type: 'bar',
+                                        data: {
+                                          labels: ['PROGRAMMING', 'ARTISTIC', 'CREATIVITY', 'TIME MANAGEMENT', 'STRONG TEAMWORK.','ATTENTION TO DETAIL',''],
+                                          datasets: [{
+                                             data: [80, 95, 90, 80, 95, 90],
+                                            borderWidth: 1,
+                                             backgroundColor: [
+                                              'rgba(255,99,132,0.2)',
+                                            ],
+                                            borderColor: [
+                                              'rgba(255,99,132,1)',
+                                             ]
+                                          }]
+                                        },
+                                          options: {
+                                          scales: {
+                                          y: {
+                                            beginAtZero: true
+                                           }
+                                        }
+                                      }
+                                    });
+                                    </script>
+                        </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <hr>
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><h1>My Sample Projects</h1></div>
+            <div class="boxes">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><div class="icon"><i class="fas fa-desktop"></i></div><div class="topic">Restaurant website </div><p>Responsive and visually appealing websites tailored to client needs.</p></div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><div class="icon"><i class="fas fa-chart-line"></i></div><div class="topic">Salon Website</div><p>Efficient code to meet software requirements.</p></div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><div class="icon"><i class="fab fa-android"></i></div><div class="topic">RPG Game</div><p>Securing networks, systems, and applications against cyber threats.</p></div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800"><div class="icon"><i class="fas fa-camera-retro"></i></div><div class="topic">Charity Organization  Website</div><p>High-quality images for personal or professional use.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><h1>Contacts</h1></div>
+            <div class="text">
+              <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                <strong>CONTACT DETAILS:</strong> 09054525958 &nbsp;&nbsp;&nbsp;&nbsp; <strong>EMAIL ADDRESS: </strong>antawngapasin@gmail.com                  
+                </p>
+                <hr>
+              <div class="social-icons">
+                    <a href="https://www.instagram.com/antawngapasin/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/antawn.gapasin" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/@Agtagalnaka420/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            delay: 100,
+            duration: 600,
+            once: true,
+            mirror: false,
+            anchorPlacement: 'top-bottom'
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
